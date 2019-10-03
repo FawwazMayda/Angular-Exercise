@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dragdrop.component.css']
 })
 export class DragdropComponent implements OnInit {
-
+  dragText : String ="";
   constructor() { }
 
   ngOnInit() {
+    this.dragText=""
   }
 
 }
