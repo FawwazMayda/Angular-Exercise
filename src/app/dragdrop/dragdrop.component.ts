@@ -8,11 +8,9 @@ import {CdkDragDrop, moveItemInArray} from '@angular/cdk/drag-drop';
   styleUrls: ['./dragdrop.component.css']
 })
 export class DragdropComponent implements OnInit {
-  dragText : String ="";
   constructor() { }
 
   ngOnInit() {
-    this.dragText=""
   }
 
   ball = [
